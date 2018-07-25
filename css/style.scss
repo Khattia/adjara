@@ -1,0 +1,230 @@
+
+
+.home {
+	background: url('../img/main_photo.jpg') no-repeat;
+	background-size: cover;
+	height: 743px;
+}
+.burger {
+	position: absolute;
+	margin-top: 28px;
+	margin-left: 200px;
+}
+.burger span {
+	width: 20px;
+	height: 2px;
+	background: white;
+	display: block;
+	margin-top: 4px;
+}
+.burger_icon {
+	display: inline-block;
+}
+.burger p {
+	font-family: bpg-web;
+	display: inline-block;
+}
+.burger p.adjara {
+	color: white;
+	margin-left: 21px;
+	
+}
+.burger p.music {
+	color: #f43537;
+	margin-left: -3px;
+}
+nav {
+	position: absolute;
+	text-align: center;
+	font-family: bpg-web-caps;
+	display: inline-block;
+	margin-left: 616px;
+	margin-top: 33px;
+	color: white;
+}
+nav li {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 25px;
+}
+.icons {
+	float: right;
+	// margin-top: 27px;
+	margin-right: 205px;
+}
+a.icon {
+	margin-left: 38px;
+}
+.icon img {
+	height: 26px;
+	margin-top: 27px;
+}
+.EN span {
+	color: white;
+	font-family: montserrat-light;
+	margin-left: 49px;
+}
+
+.main_text {
+	position: absolute;
+	margin:  310px 0 0 192px;
+	color: white;
+}
+.main_text h1{
+	font-family: bpg-web;
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: lighter;
+}
+.main_text h2 {
+	font-family: bpg-web-caps;
+	font-size: 13px;
+	margin-top: 32px;
+}
+
+
+
+// -----------------
+
+div.events {
+	display: flex!important;
+	flex-dirextion: row;
+}
+table {
+	// display: inline-block;
+	position: absolute;
+	width: 350px;
+	height: 85px;
+}
+table.table1 {
+	margin-left: 200px;
+}
+table.table2 {
+	margin-left: 590px;
+}
+table.table3 {
+	margin-left: 980px;
+}
+table.table4 {
+	margin-left: 1370px;
+}
+
+tr {
+	width: 250px;
+}
+
+th {
+	text-align: left;
+}
+th h1 {
+	font-family: myriadpro;
+	font-size: 13px;
+}
+
+th h2 {
+	font-family: bpg-web;
+	font-size: 9px;
+	color: #8d8d8d;
+}
+
+th h3 {
+	font-family: bpg-web;
+	font-size: 12px;
+}
+
+// .title {
+// 	// display: inline-block;
+// 	float: right;
+// }
+
+.event_image {
+	width: 147px;
+	height: 82px;
+	// display: inline-block;
+}
+
+
+// ------------------
+
+
+.main {
+	background-color: #f3f3f3;
+}
+.main h1 {
+	color: #1a1b21;
+	font-family: bpg-web-caps;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 57px;
+	padding-bottom: 72px;
+}
+
+article {
+	// display: block;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// STYLERESET
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+input {
+	outline: none;
+}
