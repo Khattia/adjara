@@ -264,7 +264,7 @@ th.news_image{
 }
 tbody.newsbody{
 	margin-top: 0px;
-    width: 910px;
+    width: 890px;
 }
 img.image_news {
     width: 363px;
@@ -275,12 +275,20 @@ img.image_news {
 th.news_header {
     text-align: left;
 }
-h3.new_header {
-    margin-top: 19px;
+a.new_header h3{
+	font-size: 13px;
+    margin-left: 27px;
+}
+a.new_header h2{
+	font-size: 13px;
+    margin-left: 27px;
 }
 p.akhaliambebi{
     margin-top: 0;
     padding-bottom: 81px;
+    font-family: bpg-web;
+    font-size: 22px;
+    margin-left: 27px;
 }
 
 
@@ -299,20 +307,45 @@ p.akhaliambebi{
 	font-family: bpg-web-caps;
 	font-size: 13px;
 	margin-top: 30px;
-	margin-right: 4px;
+    margin-right: 55px;
 }
 aside {
 	float: right;
 	display: inline-block;
 }
 aside.aside {
-	margin-right: 205px;
+	margin-right: 190px;
 }
-
-
-
-
-
+table.pop {
+    margin-left: 0;
+    margin-right: 160px;
+}
+img.image_popular{
+	margin-left: 5px;
+	width: 130px;
+    height: 74px;
+    margin-bottom: 35px;
+}
+th.title {
+	text-align: left;
+}
+.title_pop h1{
+	width: 335px;
+	text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: bpg-web;
+    margin-top: -22px;
+    margin-bottom: 33px
+}
+.title_pop h3 {
+	width: 335px;
+	text-align: left;
+    margin-left: 20px;
+}
+.tbody_pop {
+	    margin-top: 0px;
+}
 
 
 
@@ -334,7 +367,7 @@ h1.new_music {
 }
 section.music{
 	background-color: #1a1b21;
-    margin-top: 1110px;
+    margin-top: 1215px;
 	padding-bottom: 270px;
 
 }
